@@ -1,0 +1,30 @@
+{
+  "name": "nodejs1st",
+  "version": "1.0.0",
+  "description": "FirstProjectNodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FPTU-Felix/NodeJS1st.git"
+  },
+  "keywords": [
+    "Felix1stProject"
+  ],
+  "author": "Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FPTU-Felix/NodeJS1st/issues"
+  },
+  "homepage": "https://github.com/FPTU-Felix/NodeJS1st#readme",
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
